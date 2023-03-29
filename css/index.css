@@ -1,0 +1,88 @@
+body{
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    background-image: url(../img/cover.jpg);
+}
+.right{
+    position: absolute;
+    right: 34px;
+    top: 24px;
+/* border: 2px solid red; */
+display: inline-block;
+}
+.mid{
+    display: block;
+    width: 33%;
+    margin: 24px auto;
+    /* border: 2px solid rgb(35, 10, 10); */
+}
+.left{
+    position: absolute;
+    left: 42px;
+    top: 24px;
+    display: inline-block; 
+    /* border: 2px solid rgb(223, 151, 151); */
+}
+.left img{
+    width: 80px;
+}
+.left div{
+    text-align: center;
+}
+.navbar{
+  display: inline-block;
+}
+.navbar li{
+    font-size: 22px;
+    display: inline-block;
+}
+.navbar li a{
+    color: white;
+    text-decoration: none;
+    padding: 34px 34px;
+}
+.navbar li a:active, .navbar li a:hover{
+text-decoration: underline;
+color: burlywood;
+}
+.btn{
+    color: white;
+    background-color: black;
+    margin: 6px 10px;
+    padding: 8px 23px;
+    border: 2px solid gray;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.btn:hover{
+background-color: burlywood;
+color: blue;
+
+}
+.container{
+border: 2px solid rgb(250, 251, 250);
+margin: 66px 44px;
+padding: 24px 33px;
+width: 30%;
+border-radius: 4px;
+}
+.container h1{
+    text-align: center;
+}
+.formgroup input{
+    font-size: 40px;
+    text-align: center;
+    width: 550px;
+    display: block;
+    border: 4px;
+    border-radius: 6px;
+   padding: 1px;
+   margin: 4px auto;
+}
+.container button{
+    display: block;
+    width: 74%;
+    margin: 20px auto;
+}
